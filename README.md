@@ -1,65 +1,62 @@
-
 # OpenCore-EFI-For-MSI-MPG-X570-Gaming-Plus-and-Ryzen-3700X
 -------
-## 说明
+## illustrate
 
-**这是一个黑苹果引导，基于OpenCore制作qwq**
+**This is a hacker boot, made qwq based on OpenCore**
 
-**目前OpenCore版本为0.9.3 支持macOS 14.0 Beta**
+**The current OpenCore version is 0.9.3 and supports macOS 14.0 Beta**
 
-**macOS Catalina Bigsur Monterey Ventura之前测试过均可引导，其余系统自测**
+**macOS Catalina Bigsur Monterey Ventura has been tested before and can be booted, and the rest of the systems are self-tested**
 
 ----
 
-## 总览
+## Overview
 ![overview](https://github.com/NikoRurQwQRuaa/OpenCore-EFI-For-MSI-MPG-X570-Gaming-Plus-and-Ryzen-3700X/blob/main/Photos.png)
 
 ---
 
-**我的电脑配置：**
+**My computer configuration:**
 
 **CPU:AMD Ryzen 3700X**
 
-**内存:32GB DDR4 3200Mhz**
+**Memory: 32GB DDR4 3200Mhz**
 
-**显卡:AMD Radeon RX 570 8GB**
+**Graphics card: AMD Radeon RX 570 8GB**
 
-**主板:MSI MPG X570 GAMING PLUS**
+**Motherboard: MSI MPG X570 GAMING PLUS**
 
 ----
-## 驱动支持方面
+## Driver Support
 ---
-部件|型号|是否支持
+Part|Model|Is it supported
 :-|:-|:-|
-CPU|AMD Ryzen 7 3700X|支持
-独立显卡|MSI AMD Radeon RX570 8GB|支持
-网卡|RealtekRTL8111|支持
-硬盘|闪迪SATA 128G SSD|支持，三星m.2 PM981a不支持
-HDMI输出||支持
-音频/3.5耳机接口|Realtek ALCS1220A|支持
-内存|金士顿/海盗船DDR4 3200MHz|支持
-USB|支持大部分USB3.0 20接口|背板部分2.0无法使用
-PS/2接口|自行加驱动VoodooPS2测试|未知
-麦克风|ALCS1220A|不支持 使用USB外接解决
+CPU|AMD Ryzen 7 3700X|Support
+Discrete Graphics | MSI AMD Radeon RX570 8GB | Support
+NIC|RealtekRTL8111|Support
+Hard disk | SanDisk SATA 128G SSD | support, Samsung m.2 PM981a does not support
+HDMI output || support
+Audio/3.5 Headphone Jack | Realtek ALCS1220A | Support
+Memory | Kingston/Corsair DDR4 3200MHz | Support
+USB|Supports most USB3.0 20 interfaces|backplane part 2.0 cannot be used
+PS/2 interface|add driver VoodooPS2 test|unknown
+Microphone | ALCS1220A | does not support use USB external connection
 
-## Tips：
-**USB驱动是在MacPro7,1的机型下定制的 如需使用请设置三码为MacPro7,1**
+## Tips:
+**The USB driver is customized under the MacPro7,1 model. If you need to use it, please set the third code as MacPro7,1**
 
-**此理论X570机型通用 不保证一定可用，请自行测试**
+**This theory is common to X570 models and is not guaranteed to be available, please test it yourself**
 
-**初次安装建议在boot-args加入-v跑代码模式 方便排查错误**
+**It is recommended to add -v run code mode to boot-args for the first time installation to facilitate troubleshooting**
 
-**RX5000 6000系列显卡请在boot-args加入agdpmod=pikera**
+**For RX5000 6000 series graphics cards, please add agdpmod=pikera to boot-args**
 
-**机型三码已经删除 请自行使用工具加入**
+**The three codes of the model have been deleted, please use the tool to add**
 
 --
-## 致谢
+## Acknowledgments
 
-**Acidanthera的OpenCore**
+**Acidanthera's OpenCore**
 
-**Apple的macOS**
+**Apple's macOS**
 
-**AMD Vanilla开发的AMD Ryzen CPU Patch**
-
-
+** AMD Vanilla's AMD Ryzen CPU Patch**
