@@ -11,6 +11,11 @@
 
 ----
 
+## 总览
+![overview](https://github.com/NikoRurQwQRuaa/OpenCore-EFI-For-MSI-MPG-X570-Gaming-Plus-and-Ryzen-3700X/blob/main/Photos.png)
+
+---
+
 **我的电脑配置：**
 
 **CPU:AMD Ryzen 3700X**
