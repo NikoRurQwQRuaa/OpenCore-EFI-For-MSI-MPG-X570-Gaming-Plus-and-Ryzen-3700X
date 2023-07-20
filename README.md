@@ -31,11 +31,11 @@ CPU|AMD Ryzen 7 3700X|支持
 网卡|RealtekRTL8111|支持
 硬盘|闪迪SATA 128G SSD|支持，三星m.2 PM981a不支持
 HDMI输出||支持
-音频/3.5耳机接口| |支持
+音频/3.5耳机接口|Realtek ALCS1220A|支持
 内存|金士顿/海盗船DDR4 3200MHz|支持
 USB|支持大部分USB3.0 20接口|背板部分2.0无法使用
 PS/2接口|自行加驱动VoodooPS2测试|未知
-麦克风| |不支持 使用USB外接解决
+麦克风|ALCS1220A|不支持 使用USB外接解决
 
 ## Tips：
 **USB驱动是在MacPro7,1的机型下定制的 如需使用请设置三码为MacPro7,1**
